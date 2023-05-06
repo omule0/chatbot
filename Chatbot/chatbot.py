@@ -2,7 +2,6 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
-api_secret = "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"
 openai.api_key = st.secrets[api_secret]
 
 
